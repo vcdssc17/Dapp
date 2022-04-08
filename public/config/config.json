@@ -1,18 +1,18 @@
 {
-  "CONTRACT_ADDRESS": "0x0b18b900F7375AABDa00EEaC988116C33fb05BD2",
-  "SCAN_LINK": "https://polygonscan.com/token/0x0b18b900F7375AABDa00EEaC988116C33fb05BD2",
+  "CONTRACT_ADDRESS": "0xF6f289e24B2225E5A8C56fa8f33a61D60a37a572",
+  "SCAN_LINK": "https://rinkeby.etherscan.io/token/0xF6f289e24B2225E5A8C56fa8f33a61D60a37a572",
   "NETWORK": {
-    "NAME": "Polygon",
-    "SYMBOL": "Matic",
-    "ID": 137
+    "NAME": "Rinkeby",
+    "SYMBOL": "ETH",
+    "ID": 4
   },
-  "NFT_NAME": "The Stripes NFT",
-  "SYMBOL": "TSNFT",
-  "MAX_SUPPLY": 992,
-  "WEI_COST": 4000000000000000000,
-  "DISPLAY_COST": 4,
+  "NFT_NAME": "Ruleks Games",
+  "SYMBOL": "RTG",
+  "MAX_SUPPLY": 1111,
+  "WEI_COST": 2000000000000000,
+  "DISPLAY_COST": 0.002,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "Opeansea",
-  "MARKETPLACE_LINK": "https://opensea.io/collection/the-stripes-nft",
+  "MARKETPLACE_LINK": "https://opensea.io/collection",
   "SHOW_BACKGROUND": true
 }
