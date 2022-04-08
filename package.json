@@ -4,6 +4,10 @@
   "description": "The Stripes NFT minting dapp is a quick and easy way to connect your smart contract and start minting NFTs.",
   "private": true,
   "dependencies": {
+    "async_hooks": "^1.0.0",
+    "ethers": "^5.6.2",
+    "keccak256": "^1.0.6",
+    "merkletreejs": "^0.2.31",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-redux": "^7.2.4",
