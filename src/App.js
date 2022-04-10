@@ -230,7 +230,7 @@ function App() {
 
     const proof = Merkletree.getHexProof(adddd);
 
-    let whitelistCost = await blockchain.smartContract.methods.publicCost().call();
+    let whitelistCost = await blockchain.smartContract.methods.whitelistCost().call();
     let gasLimit = CONFIG.GAS_LIMIT;
     let totalGasLimit = String(gasLimit * mintAmount);
     let totalCostWei = String(whitelistCost * mintAmount);
