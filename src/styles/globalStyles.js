@@ -50,6 +50,8 @@ export const Container = styled.div`
   background-position: center;
 `;
 
+
+
 export const TextTitle = styled.p`
   color: var(--primary-text);
   font-size: 22px;

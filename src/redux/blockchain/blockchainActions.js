@@ -3,6 +3,8 @@ import Web3EthContract from "web3-eth-contract";
 import Web3 from "web3";
 // log
 import { fetchData } from "../data/dataActions";
+import blockchainReducer from "./blockchainReducer";
+
 
 const connectRequest = () => {
   return {
@@ -72,6 +74,7 @@ export const connect = () => {
               web3: web3,
             })
           );
+
           // Add listeners start
           ethereum.on("accountsChanged", (accounts) => {
             dispatch(updateAccount(accounts[0]));

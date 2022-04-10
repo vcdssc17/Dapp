@@ -29,6 +29,8 @@ export const fetchData = () => {
         .getState()
         .blockchain.smartContract.methods.totalSupply()
         .call();
+
+      let roundNFTs = await store.getState().blockchain.smartContract.methods.available4Mint().call();
       // let cost = await store
       //   .getState()
       //   .blockchain.smartContract.methods.cost()
@@ -37,6 +39,7 @@ export const fetchData = () => {
       dispatch(
         fetchDataSuccess({
           totalSupply,
+          roundNFTs,
           // cost,
         })
       );
