@@ -426,6 +426,10 @@ function App() {
                         >
                           {blockchain.errorMsg}
                         </s.TextDescription>
+
+                        <StyledLink target={"_blank"} href="https://metamask.app.link/dapp/https://mint.ruleks-games.com">
+                          Minting on mobile? Press here to switch to metamask browser.
+                        </StyledLink>
                       </>
                     ) : null}
                   </s.Container>
