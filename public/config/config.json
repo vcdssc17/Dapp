@@ -1,16 +1,16 @@
 {
-  "CONTRACT_ADDRESS": "0xa00d6c0613eb3e54F7C907E1aBBA71124ffaD307",
-  "SCAN_LINK": "https://rinkeby.etherscan.io/token/0xa00d6c0613eb3e54F7C907E1aBBA71124ffaD307",
+  "CONTRACT_ADDRESS": "0x04A6214c13ca927578383BB765C6e88BFb04b715",
+  "SCAN_LINK": "https://etherscan.io/token/0x04A6214c13ca927578383BB765C6e88BFb04b715",
   "NETWORK": {
-    "NAME": "Rinkeby",
+    "NAME": "Ethereum",
     "SYMBOL": "ETH",
-    "ID": 4
+    "ID": 1
   },
   "NFT_NAME": "Ruleks Games",
   "SYMBOL": "RTG",
   "MAX_SUPPLY": 1111,
-  "WEI_COST": 2000000000000000,
-  "DISPLAY_COST": 0.002,
+  "WEI_COST": 100000000000000000,
+  "DISPLAY_COST": 0.1,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "Opeansea",
   "MARKETPLACE_LINK": "https://opensea.io/collection",
