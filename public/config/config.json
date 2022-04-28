@@ -6,13 +6,13 @@
     "SYMBOL": "ETH",
     "ID": 1
   },
-  "NFT_NAME": "Ruleks Games",
-  "SYMBOL": "RTG",
-  "MAX_SUPPLY": 1111,
+  "NFT_NAME": "T-Poser",
+  "SYMBOL": "TP",
+  "MAX_SUPPLY": 494,
   "WEI_COST": 100000000000000000,
   "DISPLAY_COST": 0.1,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "Opeansea",
-  "MARKETPLACE_LINK": "https://opensea.io/collection",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/t-poser",
   "SHOW_BACKGROUND": true
 }
