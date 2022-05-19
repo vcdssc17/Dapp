@@ -416,7 +416,9 @@ function App() {
                     >
                       CONNECT
                     </StyledButton>
-                    {isMobile ?
+                    {isMobile && !window.ethereum ?
+
+
                       <StyledButton
                         onClick={(e) => {
                           window.open("https://metamask.app.link/dapp/https://mint.ruleks-games.com", "_blank");
