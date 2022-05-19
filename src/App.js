@@ -343,7 +343,7 @@ function App() {
             >
               <StyledButton
                 onClick={(e) => {
-                  window.open("https://discord.com", "_blank");
+                  window.open("https://discord.gg/ruleksgames", "_blank");
                 }}
                 style={{
                   margin: "5px",
